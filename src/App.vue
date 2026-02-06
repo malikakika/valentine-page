@@ -56,7 +56,11 @@
         Looks like you just missed the sweetest Valentine date ever 💅💔
       </p>
     </div>
+    
   </div>
+   <footer class="dev-footer">
+    © Designed & developed by Malika
+  </footer>
 </template>
 
 <script setup>
@@ -183,6 +187,18 @@ h1 {
     opacity: 1;
     transform: scale(1);
   }
+}
+.dev-footer {
+  position: fixed;
+  bottom: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  color: #8b2d3b;
+  opacity: 0.55;
+  letter-spacing: 0.03em;
+  pointer-events: none; /* ne gêne jamais les clics */
+  user-select: none;
 }
 
 @media (max-width: 900px) {
